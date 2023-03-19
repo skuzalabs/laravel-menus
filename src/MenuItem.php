@@ -352,8 +352,12 @@ class MenuItem implements ArrayableContract
      *
      * @return string
      */
-    public function getIcon($default = null)
+    public function getIcon($default = null, $blade = false)
     {
+        if ($this->icon !== null && $this->icon !== '' && $blade === true) {
+            return $this->icon;
+        }
+
         if ($this->icon !== null && $this->icon !== '') {
             return '<i class="' . $this->icon . '"></i>';
         }
