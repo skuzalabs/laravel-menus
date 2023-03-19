@@ -8,7 +8,7 @@
 
 namespace App\Presenters;
 
-use Nwidart\Menus\Presenters\Presenter;
+use SkuzaLabs\Menus\Presenters\Presenter;
 
 class MetronicHorizontalMenuPresenter extends Presenter
 {

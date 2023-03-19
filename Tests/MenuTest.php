@@ -1,9 +1,9 @@
 <?php
 
-namespace Nwidart\Menus\Tests;
+namespace SkuzaLabs\Menus\Tests;
 
-use Nwidart\Menus\Menu;
-use Nwidart\Menus\MenuBuilder;
+use SkuzaLabs\Menus\Menu;
+use SkuzaLabs\Menus\MenuBuilder;
 
 class MenuTest extends BaseTestCase
 {

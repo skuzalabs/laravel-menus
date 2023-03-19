@@ -1,8 +1,8 @@
 <?php
 
-namespace Nwidart\Menus\Presenters;
+namespace SkuzaLabs\Menus\Presenters;
 
-use Nwidart\Menus\MenuItem;
+use SkuzaLabs\Menus\MenuItem;
 
 interface PresenterInterface
 {
@@ -23,11 +23,11 @@ interface PresenterInterface
     /**
      * Get menu tag without dropdown wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */
-    public function getMenuWithoutDropdownWrapper($item);
+    public function getMenuWithoutDropdownWrapper(MenuItem $item);
 
     /**
      * Get divider tag wrapper.
@@ -39,25 +39,25 @@ interface PresenterInterface
     /**
      * Get divider tag wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return mixed
      */
-    public function getHeaderWrapper($item);
+    public function getHeaderWrapper(MenuItem $item);
 
     /**
      * Get menu tag with dropdown wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */
-    public function getMenuWithDropDownWrapper($item);
+    public function getMenuWithDropDownWrapper(MenuItem $item);
 
     /**
      * Get child menu items.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */

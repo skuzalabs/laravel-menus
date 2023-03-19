@@ -1,8 +1,8 @@
 <?php
 
-namespace Nwidart\Menus\Presenters\Foundation;
+namespace SkuzaLabs\Menus\Presenters\Foundation;
 
-use Nwidart\Menus\Presenters\Presenter;
+use SkuzaLabs\Menus\Presenters\Presenter;
 
 class ZurbMenuPresenter extends Presenter
 {

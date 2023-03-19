@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\Menus;
+namespace SkuzaLabs\Menus;
 
 use Closure;
 use Collective\Html\HtmlFacade as HTML;

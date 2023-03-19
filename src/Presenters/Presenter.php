@@ -1,8 +1,8 @@
 <?php
 
-namespace Nwidart\Menus\Presenters;
+namespace SkuzaLabs\Menus\Presenters;
 
-use Nwidart\Menus\MenuItem;
+use SkuzaLabs\Menus\MenuItem;
 
 abstract class Presenter implements PresenterInterface
 {
@@ -27,11 +27,11 @@ abstract class Presenter implements PresenterInterface
     /**
      * Get menu tag without dropdown wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */
-    public function getMenuWithoutDropdownWrapper($item)
+    public function getMenuWithoutDropdownWrapper(MenuItem $item)
     {
     }
 
@@ -47,40 +47,40 @@ abstract class Presenter implements PresenterInterface
     /**
      * Get header dropdown tag wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */
-    public function getHeaderWrapper($item)
+    public function getHeaderWrapper(MenuItem $item)
     {
     }
 
     /**
      * Get menu tag with dropdown wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */
-    public function getMenuWithDropDownWrapper($item)
+    public function getMenuWithDropDownWrapper(MenuItem $item)
     {
     }
 
     /**
      * Get multi level dropdown menu wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */
-    public function getMultiLevelDropdownWrapper($item)
+    public function getMultiLevelDropdownWrapper(MenuItem $item)
     {
     }
 
     /**
      * Get child menu items.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */

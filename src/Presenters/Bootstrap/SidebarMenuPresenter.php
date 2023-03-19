@@ -1,9 +1,9 @@
 <?php
 
-namespace Nwidart\Menus\Presenters\Bootstrap;
+namespace SkuzaLabs\Menus\Presenters\Bootstrap;
 
 use Illuminate\Support\Str;
-use Nwidart\Menus\Presenters\Presenter;
+use SkuzaLabs\Menus\Presenters\Presenter;
 
 class SidebarMenuPresenter extends Presenter
 {
@@ -30,7 +30,7 @@ class SidebarMenuPresenter extends Presenter
     /**
      * Get menu tag without dropdown wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string
      */
@@ -104,7 +104,7 @@ class SidebarMenuPresenter extends Presenter
     /**
      * Get multilevel menu wrapper.
      *
-     * @param \Nwidart\Menus\MenuItem $item
+     * @param \SkuzaLabs\Menus\MenuItem $item
      *
      * @return string`
      */

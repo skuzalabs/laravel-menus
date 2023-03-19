@@ -1,6 +1,6 @@
 <?php
 
-namespace Nwidart\Menus\Presenters\Bootstrap;
+namespace SkuzaLabs\Menus\Presenters\Bootstrap;
 
 class NavbarRightPresenter extends NavbarPresenter
 {

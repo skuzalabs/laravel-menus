@@ -1,10 +1,10 @@
 <?php
 
-namespace Nwidart\Menus\Tests;
+namespace SkuzaLabs\Menus\Tests;
 
 use Illuminate\Config\Repository;
-use Nwidart\Menus\MenuBuilder;
-use Nwidart\Menus\MenuItem;
+use SkuzaLabs\Menus\MenuBuilder;
+use SkuzaLabs\Menus\MenuItem;
 
 class MenuBuilderTest extends BaseTestCase
 {
